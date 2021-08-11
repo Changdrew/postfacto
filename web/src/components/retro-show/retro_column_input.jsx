@@ -69,10 +69,10 @@ export default class RetroColumnInput extends React.Component {
         return 'I\'m glad that...';
       }
       if (category === 'meh') {
-        return 'I\'m wondering about...';
+        return 'I\'m wondering about.../It wasn\'t so great that';
       }
       if (category === 'sad') {
-        return 'It wasn\'t so great that...';
+        return 'Ideas/Shoutouts!';
       }
       return 'Add an action item';
     }
